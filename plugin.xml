@@ -21,6 +21,6 @@ id="com.phonegap.plugins.powermanagement"
             </feature>
         </config-file>
         
-        <source-file src="src/android/PowerManagement.java" target-dir="com/phonegap/plugins/powermanagement" />
+        <source-file src="src/android/PowerManagement.java" target-dir="src/com/phonegap/plugins/powermanagement" />
      </platform>
 </plugin>

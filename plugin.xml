@@ -9,7 +9,7 @@ id="com.phonegap.plugins.powermanagement"
     <license>Apache 2.0</license>
     <keywords>cordova,power,management</keywords>
 
-    <js-module src="www/powermanagement.js" name="VideoPlayer">
+    <js-module src="www/powermanagement.js" name="PowerManagement">
         <clobbers target="window.plugins.powerManagement" />
     </js-module>
     

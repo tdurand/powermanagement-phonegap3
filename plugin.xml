@@ -21,6 +21,10 @@ id="com.phonegap.plugins.powermanagement"
             </feature>
         </config-file>
         
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.WAKE_LOCK" />
+        </config-file>
+        
         <source-file src="src/android/PowerManagement.java" target-dir="src/com/phonegap/plugins/powermanagement" />
      </platform>
 </plugin>
